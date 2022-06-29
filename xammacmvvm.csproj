@@ -16,8 +16,12 @@
   </PropertyGroup>
   <ItemGroup>
     <None Remove="MVVM\" />
+    <None Remove="DeclarativeUI\" />
+    <None Remove="DeclarativeUI\Options\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="MVVM\" />
+    <Folder Include="DeclarativeUI\" />
+    <Folder Include="DeclarativeUI\Options\" />
   </ItemGroup>
 </Project>
